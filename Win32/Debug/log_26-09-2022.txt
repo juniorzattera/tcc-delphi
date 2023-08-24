@@ -1,0 +1,18 @@
+26/09/2022 07:32:53: Aplicação encerrada.
+26/09/2022 07:33:36: Aplicação encerrada.
+26/09/2022 07:33:41: Aplicação iniciada
+26/09/2022 07:33:41: Servidor Iniciado na porta 8006
+26/09/2022 07:33:41: Conexão MySQL aberta.
+26/09/2022 07:33:47: Aplicação encerrada.
+26/09/2022 07:33:48: Aplicação iniciada
+26/09/2022 07:33:48: Servidor Iniciado na porta 8006
+26/09/2022 07:33:48: Conexão MySQL aberta.
+26/09/2022 07:33:52: Aplicação encerrada.
+26/09/2022 10:05:59: Aplicação iniciada
+26/09/2022 10:05:59: Servidor Iniciado na porta 8006
+26/09/2022 10:05:59: Conexão MySQL aberta.
+26/09/2022 10:06:05: Aplicação encerrada.
+26/09/2022 10:35:22: Aplicação iniciada
+26/09/2022 10:35:22: Servidor Iniciado na porta 8006
+26/09/2022 10:35:22: Conexão MySQL aberta.
+26/09/2022 10:35:26: Aplicação encerrada.

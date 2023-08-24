@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/04/26 10:20:22.000.821,=C:\Users\Aurora\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/03 11:21:23.000.100,=C:\Users\Aurora\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/03 13:29:47.000.126,C:\Users\Aurora\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Aurora\Documents\Embarcadero\Studio\Projects\Socket\InterfaceSocket.dfm</Transaction>
+    <Transaction>2022/05/03 13:29:47.000.126,C:\Users\Aurora\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Aurora\Documents\Embarcadero\Studio\Projects\Socket\InterfaceSocket.pas</Transaction>
+    <Transaction>2022/05/03 13:30:25.000.006,C:\Users\Aurora\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Aurora\Documents\Embarcadero\Studio\Projects\Socket\ProjetoSocket.dproj</Transaction>
+    <Transaction>2022/10/17 10:37:35.000.033,C:\Users\Aurora\Documents\Embarcadero\Studio\Projects\Abate_Norias\ProjetoSocket.dproj=C:\Users\Aurora\Documents\Embarcadero\Studio\Projects\Abate_Norias\Abate_Norias.dproj</Transaction>
+    <Transaction>2023/08/08 15:54:17.000.740,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Teste\DadosDash.dproj=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Teste\Abate_Norias.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,114 @@
+08/08/2023 13:08:53: Aplicação encerrada.
+08/08/2023 13:10:55: Aplicação encerrada.
+08/08/2023 13:11:44: Aplicação iniciada
+08/08/2023 13:11:44: Servidor Iniciado na porta 8008
+08/08/2023 13:11:44: Conexão MySQL aberta.
+08/08/2023 13:11:51: Aplicação encerrada.
+08/08/2023 14:30:42: Aplicação iniciada
+08/08/2023 14:30:42: Servidor Iniciado na porta 8000
+08/08/2023 14:30:42: Conexão MySQL aberta.
+08/08/2023 14:30:43: Servidor Socket parado.
+08/08/2023 14:30:43: Conexão MySQL finalizada.
+08/08/2023 14:30:44: Servidor Iniciado na porta 8000
+08/08/2023 14:30:47: Servidor Socket parado.
+08/08/2023 14:30:47: Servidor Iniciado na porta 8000
+08/08/2023 14:30:48: Servidor Socket parado.
+08/08/2023 14:30:48: Servidor Iniciado na porta 8000
+08/08/2023 14:30:49: Servidor Socket parado.
+08/08/2023 14:30:50: Servidor Iniciado na porta 8000
+08/08/2023 14:30:50: Servidor Socket parado.
+08/08/2023 14:31:03: Aplicação encerrada.
+08/08/2023 14:32:42: Aplicação iniciada
+08/08/2023 14:32:42: Servidor Iniciado na porta 8000
+08/08/2023 14:32:42: Conexão MySQL aberta.
+08/08/2023 14:32:47: Aplicação encerrada.
+08/08/2023 14:33:00: Aplicação iniciada
+08/08/2023 14:33:00: Servidor Iniciado na porta 8000
+08/08/2023 14:33:00: Conexão MySQL aberta.
+08/08/2023 14:33:02: Servidor Socket parado.
+08/08/2023 14:33:02: Conexão MySQL finalizada.
+08/08/2023 14:33:03: Servidor Iniciado na porta 8000
+08/08/2023 14:33:06: Aplicação encerrada.
+08/08/2023 15:18:12: Aplicação iniciada
+08/08/2023 15:18:12: Servidor Iniciado na porta 8000
+08/08/2023 15:18:12: Conexão MySQL aberta.
+08/08/2023 15:18:14: Servidor Socket parado.
+08/08/2023 15:18:14: Conexão MySQL finalizada.
+08/08/2023 15:18:16: Servidor Iniciado na porta 8000
+08/08/2023 15:18:19: Aplicação encerrada.
+08/08/2023 15:20:56: Aplicação iniciada
+08/08/2023 15:20:56: Servidor Iniciado na porta 8000
+08/08/2023 15:20:56: Conexão MySQL aberta.
+08/08/2023 15:21:01: Cliente Conectado
+08/08/2023 15:22:01: INSERT INTO dados(contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevcvelocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:22:00",0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+08/08/2023 15:22:11: Timeout, encerrando conexões MySQL...
+08/08/2023 15:22:11: Cliente desconectado.
+08/08/2023 15:22:11: Timeout, encerrando conexões socket...
+08/08/2023 15:24:54: Aplicação encerrada.
+08/08/2023 15:24:56: Aplicação iniciada
+08/08/2023 15:24:56: Servidor Iniciado na porta 8000
+08/08/2023 15:24:56: Conexão MySQL aberta.
+08/08/2023 15:25:01: Cliente Conectado
+08/08/2023 15:26:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevcvelocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:26:00",0, 1, 2, 3, 4, 5, 0, 0, 0, 0, 1)
+08/08/2023 15:26:11: Timeout, encerrando conexões MySQL...
+08/08/2023 15:26:11: Cliente desconectado.
+08/08/2023 15:26:11: Timeout, encerrando conexões socket...
+08/08/2023 15:27:58: Aplicação encerrada.
+08/08/2023 15:28:17: Aplicação iniciada
+08/08/2023 15:28:17: Servidor Iniciado na porta 8000
+08/08/2023 15:28:17: Conexão MySQL aberta.
+08/08/2023 15:29:01: Cliente Conectado
+08/08/2023 15:30:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:30:00",0, 1, 2, 3, 4, 5, 0, 0, 0, 0, 0)
+08/08/2023 15:31:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:31:00",0, 1, 2, 3, 4, 5, 0, 0, 0, 0, 0)
+08/08/2023 15:32:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:32:00",0, 1, 2, 3, 4, 5, 0, 0, 0, 0, 0)
+08/08/2023 15:33:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:33:00",0, 1, 2, 3, 4, 5, 0, 0, 0, 0, 0)
+08/08/2023 15:34:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:34:00",100001, 1, 2, 3, 4, 5, 0, 0, 0, 0, 0)
+08/08/2023 15:35:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:35:00",100001, 100002, 2, 3, 4, 5, 0, 0, 0, 0, 0)
+08/08/2023 15:36:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:36:00",100001, 100002, 42000, 250000, 4, 5, 0, 0, 0, 0, 0)
+08/08/2023 15:37:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:37:00",100001, 100002, 42000, 250000, 60000, 80000, 0, 0, 0, 0, 0)
+08/08/2023 15:38:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:38:00",100001, 100002, 42000, 250000, 60000, 80000, 0, 0, 0, 0, 0)
+08/08/2023 15:39:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:39:00",100001, 100002, 42000, 250000, 60000, 80000, 150, 0, 0, 0, 0)
+08/08/2023 15:40:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:40:00",100001, 100002, 42000, 250000, 60000, 80000, 0, 0, 0, 0, 0)
+08/08/2023 15:41:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:41:00",100001, 100002, 42000, 250000, 60000, 80000, 0, 88, 0, 77, 66)
+08/08/2023 15:42:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:42:00",100001, 100002, 42000, 250000, 60000, 80000, 0, 0, 55, 0, 0)
+08/08/2023 15:43:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:43:00",100001, 100002, 42000, 250000, 60000, 80000, 0, 0, 0, 0, 0)
+08/08/2023 15:44:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:44:00",100001, 100002, 42000, 250000, 60000, 80000, 0, 0, 0, 0, 0)
+08/08/2023 15:44:52: Servidor Socket parado.
+08/08/2023 15:44:52: Conexão MySQL finalizada.
+08/08/2023 15:44:57: Aplicação encerrada.
+08/08/2023 15:45:30: Aplicação iniciada
+08/08/2023 15:45:30: Servidor Iniciado na porta 8000
+08/08/2023 15:45:30: Conexão MySQL aberta.
+08/08/2023 15:46:01: Cliente Conectado
+08/08/2023 15:47:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:47:00",100001, 100002, 42000, 250000, 60000, 80000, 0, 0, 0, 0, 0)
+08/08/2023 15:47:49: Servidor Socket parado.
+08/08/2023 15:47:49: Conexão MySQL finalizada.
+08/08/2023 15:48:15: Servidor Iniciado na porta 8000
+08/08/2023 15:48:51: Cliente Conectado
+08/08/2023 15:49:01: Conexão MySQL aberta.
+08/08/2023 15:49:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:49:00",100001, 100002, 42000, 250000, 60000, 80000, 0, 0, 0, 0, 0)
+08/08/2023 15:50:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:50:00",100001, 100002, 42000, 250000, 60000, 80000, 0, 0, 0, 0, 0)
+08/08/2023 15:51:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:51:00",100001, 100002, 42000, 250000, 60000, 80000, 0, 0, 0, 0, 0)
+08/08/2023 15:51:39: Servidor Socket parado.
+08/08/2023 15:51:39: Conexão MySQL finalizada.
+08/08/2023 15:51:42: Aplicação encerrada.
+08/08/2023 15:54:44: Aplicação iniciada
+08/08/2023 15:54:44: Servidor Iniciado na porta 8000
+08/08/2023 15:54:44: Conexão MySQL aberta.
+08/08/2023 15:54:49: Aplicação encerrada.
+08/08/2023 15:55:32: Aplicação iniciada
+08/08/2023 15:55:32: Servidor Iniciado na porta 8000
+08/08/2023 15:55:32: Conexão MySQL aberta.
+08/08/2023 15:55:37: Aplicação encerrada.
+08/08/2023 15:55:51: Aplicação iniciada
+08/08/2023 15:55:51: Servidor Iniciado na porta 8000
+08/08/2023 15:55:51: Conexão MySQL aberta.
+08/08/2023 15:55:57: Aplicação encerrada.
+08/08/2023 15:57:55: Aplicação iniciada
+08/08/2023 15:57:55: Servidor Iniciado na porta 8000
+08/08/2023 15:57:55: Conexão MySQL aberta.
+08/08/2023 15:58:00: Cliente Conectado
+08/08/2023 15:58:01: INSERT INTO dados(datahora, contadorescaldagem,contadorevisceracao,contadorsif,contadorautomatica,contadormanual1,contadormanual2,velocidadeescaldagemevc,velocidadesif,velocidadenoriaautomatica,velocidadenoriamanual1,velocidadenoriamanual2) VALUES ("23-08-08 15:58:00",100001, 100002, 42000, 250000, 60000, 80000, 0, 0, 0, 0, 0)
+08/08/2023 15:58:30: Servidor Socket parado.
+08/08/2023 15:58:30: Conexão MySQL finalizada.
+08/08/2023 15:58:33: Aplicação encerrada.

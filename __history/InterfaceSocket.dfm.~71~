@@ -1,0 +1,106 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Norias'
+  ClientHeight = 651
+  ClientWidth = 894
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 166
+    Top = 8
+    Width = 145
+    Height = 15
+    Caption = 'Norias - FACH II'
+    Color = clBtnFace
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Fixedsys'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Memo1: TMemo
+    Left = 10
+    Top = 96
+    Width = 876
+    Height = 544
+    ScrollBars = ssBoth
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 145
+    Top = 40
+    Width = 185
+    Height = 41
+    Color = clRed
+    UseDockManager = False
+    ParentBackground = False
+    TabOrder = 1
+    object SpeedButton1: TSpeedButton
+      Left = 1
+      Top = 1
+      Width = 183
+      Height = 39
+      Align = alClient
+      Caption = 'Servidor Parado'
+      Flat = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      OnClick = SpeedButton1Click
+      ExplicitLeft = 33
+    end
+  end
+  object ServerSocket1: TServerSocket
+    Active = False
+    Port = 8008
+    ServerType = stNonBlocking
+    OnClientConnect = ServerSocket1ClientConnect
+    OnClientDisconnect = ServerSocket1ClientDisconnect
+    OnClientRead = ServerSocket1ClientRead
+    OnClientError = ServerSocket1ClientError
+    Left = 536
+    Top = 16
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=abate_norias'
+      'Password=aurora'
+      'User_Name=operador'
+      'Server=localhost'
+      'DriverID=MySQL')
+    LoginPrompt = False
+    Left = 616
+    Top = 16
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 70000
+    OnTimer = Timer1Timer
+    Left = 472
+    Top = 16
+  end
+  object FDGUIxErrorDialog1: TFDGUIxErrorDialog
+    Provider = 'Forms'
+    Left = 704
+    Top = 16
+  end
+end

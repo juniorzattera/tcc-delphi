@@ -1,0 +1,163 @@
+31/08/2022 14:48:43: Aplicação iniciada
+31/08/2022 14:48:43: Servidor Iniciado na porta 8006
+31/08/2022 14:48:43: Conexão MySQL aberta.
+31/08/2022 14:49:02: Cliente Conectado
+31/08/2022 14:49:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 14:30:00", 3194, 143, 0, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 14:49:14: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 14:30:00", 3194, 143, 0, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 14:49:46: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 14:30:00", 3194, 143, 0, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 14:49:57: Servidor Socket parado.
+31/08/2022 14:50:12: Timeout, encerrando conexões MySQL...
+31/08/2022 14:51:22: Timeout, encerrando conexões MySQL...
+31/08/2022 14:52:32: Timeout, encerrando conexões MySQL...
+31/08/2022 14:53:42: Timeout, encerrando conexões MySQL...
+31/08/2022 14:54:52: Timeout, encerrando conexões MySQL...
+31/08/2022 14:55:13: Aplicação encerrada.
+31/08/2022 14:57:01: Aplicação iniciada
+31/08/2022 14:57:01: Servidor Iniciado na porta 8006
+31/08/2022 14:57:01: Conexão MySQL aberta.
+31/08/2022 14:57:02: Cliente Conectado
+31/08/2022 14:57:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 14:30:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 14:57:14: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 14:30:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 14:57:19: Servidor Socket parado.
+31/08/2022 14:57:41: Aplicação encerrada.
+31/08/2022 14:59:08: Aplicação iniciada
+31/08/2022 14:59:08: Servidor Iniciado na porta 8006
+31/08/2022 14:59:08: Conexão MySQL aberta.
+31/08/2022 14:59:11: Cliente Conectado
+31/08/2022 14:59:11: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 14:30:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 14:59:11: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 14:31:00", 3195, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 14:59:11: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 14:32:00", 3195, 143, 0, 0, 0, -25536-0, -3333)
+31/08/2022 14:59:11: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 14:33:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 14:59:11: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 14:34:00", 3195, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 14:59:11: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 14:35:00", 3195, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 14:59:11: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 14:36:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 14:59:11: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 14:37:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 14:59:11: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 14:38:00", 3195, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 14:59:11: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("00-00-00 00:00:00", 0, 0, 0, 0, 0, -25536-0, 0)
+31/08/2022 14:59:28: Servidor Socket parado.
+31/08/2022 14:59:28: Conexão MySQL finalizada.
+31/08/2022 15:00:00: Servidor Iniciado na porta 8006
+31/08/2022 15:01:10: Timeout, encerrando conexões MySQL...
+31/08/2022 15:02:02: Cliente Conectado
+31/08/2022 15:02:02: Conexão MySQL aberta.
+31/08/2022 15:02:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:00:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:02:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:01:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:02:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("00-00-00 00:00:00", 0, 0, 0, 0, 0, -25536-0, 0)
+31/08/2022 15:03:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:03:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:04:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:04:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:05:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:05:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:06:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:06:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:07:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:07:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:08:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:08:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:09:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:09:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:09:24: Servidor Socket parado.
+31/08/2022 15:09:24: Conexão MySQL finalizada.
+31/08/2022 15:12:29: Servidor Iniciado na porta 8006
+31/08/2022 15:13:02: Cliente Conectado
+31/08/2022 15:13:02: Conexão MySQL aberta.
+31/08/2022 15:13:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:10:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:13:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:11:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:13:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:12:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:13:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("00-00-00 00:00:00", 0, 0, 0, 0, 0, -25536-0, 0)
+31/08/2022 15:14:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:14:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:14:54: Aplicação encerrada.
+31/08/2022 15:22:57: Aplicação iniciada
+31/08/2022 15:22:57: Servidor Iniciado na porta 8006
+31/08/2022 15:22:57: Conexão MySQL aberta.
+31/08/2022 15:23:02: Cliente Conectado
+31/08/2022 15:23:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:15:00", 3193, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:23:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:15:00", 3193, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:23:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:16:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:23:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:17:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:23:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:18:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:23:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:19:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:23:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:20:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:23:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:21:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:23:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:22:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:23:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:23:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:24:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:24:00", 3194, 143, 0, 0, 0, -25536-0, 3333)
+31/08/2022 15:24:11: Aplicação encerrada.
+31/08/2022 15:41:02: Aplicação iniciada
+31/08/2022 15:41:02: Servidor Iniciado na porta 8006
+31/08/2022 15:41:02: Conexão MySQL aberta.
+31/08/2022 15:41:02: Cliente Conectado
+31/08/2022 15:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:25:00", 3194, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:26:00", 3194, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:27:00", 3194, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:28:00", 3194, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:29:00", 3194, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:30:00", 3194, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:31:00", 3194, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:32:00", 3194, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:33:00", 3194, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:41:00", 3194, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:42:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:42:00", 3193, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:43:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:43:00", 3193, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:43:22: Aplicação encerrada.
+31/08/2022 15:53:56: Aplicação iniciada
+31/08/2022 15:53:56: Servidor Iniciado na porta 8006
+31/08/2022 15:53:56: Conexão MySQL aberta.
+31/08/2022 15:54:02: Cliente Conectado
+31/08/2022 15:54:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:44:00", 3193, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:54:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:45:00", 3193, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:54:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:46:00", 3193, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:54:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:47:00", 3193, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:54:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:48:00", 3193, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:54:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:49:00", 3193, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:54:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:50:00", 3193, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:54:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:51:00", 3193, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:54:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:52:00", 3192, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:54:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:54:00", 3193, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 15:54:16: Aplicação encerrada.
+31/08/2022 16:17:30: Aplicação iniciada
+31/08/2022 16:17:30: Servidor Iniciado na porta 8006
+31/08/2022 16:17:30: Conexão MySQL aberta.
+31/08/2022 16:18:02: Cliente Conectado
+31/08/2022 16:18:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:55:00", 3193, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 16:18:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:56:00", 3192, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 16:18:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:57:00", 3192, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 16:18:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:58:00", 3192, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 16:18:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 15:59:00", 3192, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 16:18:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:00:00", 3192, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 16:18:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:01:00", 3192, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 16:18:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:02:00", 3193, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 16:18:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:03:00", 3192, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 16:18:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:18:00", 3191, 143, 0, 0, 0, 40000, 3333)
+31/08/2022 16:18:15: Aplicação encerrada.
+31/08/2022 16:20:08: Aplicação iniciada
+31/08/2022 16:20:08: Servidor Iniciado na porta 8006
+31/08/2022 16:20:08: Conexão MySQL aberta.
+31/08/2022 16:20:11: Cliente Conectado
+31/08/2022 16:20:11: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:19:00", 3191, 143, 0, 0, 0, 1, 3333)
+31/08/2022 16:20:11: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:20:00", 3191, 143, 0, 0, 0, 1, 3333)
+31/08/2022 16:21:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:21:00", 3191, 143, 0, 0, 0, 1, 3333)
+31/08/2022 16:22:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:22:00", 3191, 143, 0, 0, 0, 1, 3333)
+31/08/2022 16:23:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:23:00", 3191, 143, 0, 0, 0, 1, 3333)
+31/08/2022 16:23:24: Aplicação encerrada.
+31/08/2022 16:23:27: Aplicação iniciada
+31/08/2022 16:23:27: Servidor Iniciado na porta 8006
+31/08/2022 16:23:27: Conexão MySQL aberta.
+31/08/2022 16:26:02: Cliente Conectado
+31/08/2022 16:26:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:24:00", 3191, 143, 0, 0, 0, 3333, 3333)
+31/08/2022 16:26:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:25:00", 3192, 143, 0, 0, 0, 3333, 3333)
+31/08/2022 16:26:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:26:00", 3191, 143, 0, 0, 0, 3333, 3333)
+31/08/2022 16:27:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:27:00", 3192, 143, 0, 0, 0, 3333, 3333)
+31/08/2022 16:28:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:28:00", 3192, 143, 0, 0, 0, 64186, -1350)
+31/08/2022 16:29:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:29:00", 3192, 143, 0, 0, 0, 64186, -1350)
+31/08/2022 16:30:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:30:00", 3191, 143, 0, 0, 0, 64186, -1350)
+31/08/2022 16:31:00: Aplicação encerrada.
+31/08/2022 16:40:35: Aplicação iniciada
+31/08/2022 16:40:35: Servidor Iniciado na porta 8006
+31/08/2022 16:40:35: Conexão MySQL aberta.
+31/08/2022 16:41:02: Cliente Conectado
+31/08/2022 16:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:31:00", 3191, 143, 0, 0, 0, 64186, -1350)
+31/08/2022 16:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:32:00", 3192, 143, 0, 0, 0, 64186, -1350)
+31/08/2022 16:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:33:00", 3191, 143, 0, 0, 0, 64186, -1350)
+31/08/2022 16:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:34:00", 3191, 143, 0, 0, 0, 64186, -1350)
+31/08/2022 16:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:35:00", 3191, 143, 0, 0, 0, 64186, -1350)
+31/08/2022 16:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:36:00", 3192, 143, 0, 0, 0, 64186, -1350)
+31/08/2022 16:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:37:00", 3191, 143, 0, 0, 0, 64186, -1350)
+31/08/2022 16:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:38:00", 3192, 143, 0, 0, 0, 64186, -1350)
+31/08/2022 16:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:39:00", 3192, 143, 0, 0, 0, 64186, -1350)
+31/08/2022 16:41:02: INSERT INTO registros(datahora,pressaosaida,sppressaosaida,tempcondensado,temppreaquecedor,tempentradagases,hidrometro,pressaointerna) VALUES ("22-08-31 16:41:00", 3192, 143, 0, 0, 0, 64186, -1350)
+31/08/2022 16:41:41: Aplicação encerrada.

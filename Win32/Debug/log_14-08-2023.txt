@@ -1,0 +1,6 @@
+14/08/2023 14:49:47: Aplicação iniciada
+14/08/2023 14:49:47: Servidor Iniciado na porta 8000
+14/08/2023 14:49:47: Conexão MySQL aberta.
+14/08/2023 14:50:02: Servidor Socket parado.
+14/08/2023 14:50:02: Conexão MySQL finalizada.
+14/08/2023 14:50:06: Aplicação encerrada.

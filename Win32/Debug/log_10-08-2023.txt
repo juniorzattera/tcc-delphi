@@ -1,0 +1,40 @@
+10/08/2023 08:23:00: Aplicação iniciada
+10/08/2023 08:23:00: Servidor Iniciado na porta 8000
+10/08/2023 08:23:00: Conexão MySQL aberta.
+10/08/2023 08:23:04: Servidor Socket parado.
+10/08/2023 08:23:04: Conexão MySQL finalizada.
+10/08/2023 08:23:08: Aplicação encerrada.
+10/08/2023 08:37:57: Aplicação iniciada
+10/08/2023 08:37:57: Servidor Iniciado na porta 8000
+10/08/2023 08:37:57: Conexão MySQL aberta.
+10/08/2023 08:38:02: Servidor Socket parado.
+10/08/2023 08:38:02: Conexão MySQL finalizada.
+10/08/2023 08:38:05: Aplicação encerrada.
+10/08/2023 08:39:25: Aplicação iniciada
+10/08/2023 08:39:25: Servidor Iniciado na porta 8000
+10/08/2023 08:39:25: Conexão MySQL aberta.
+10/08/2023 08:39:30: Aplicação encerrada.
+10/08/2023 08:44:57: Aplicação iniciada
+10/08/2023 08:44:57: Servidor Iniciado na porta 8000
+10/08/2023 08:44:57: Conexão MySQL aberta.
+10/08/2023 08:45:14: Servidor Socket parado.
+10/08/2023 08:45:14: Conexão MySQL finalizada.
+10/08/2023 08:45:16: Aplicação encerrada.
+10/08/2023 08:45:46: Aplicação iniciada
+10/08/2023 08:45:46: Servidor Iniciado na porta 8000
+10/08/2023 08:45:46: Conexão MySQL aberta.
+10/08/2023 08:45:47: Servidor Socket parado.
+10/08/2023 08:45:47: Conexão MySQL finalizada.
+10/08/2023 08:45:50: Aplicação encerrada.
+10/08/2023 08:46:57: Aplicação iniciada
+10/08/2023 08:46:57: Servidor Iniciado na porta 8000
+10/08/2023 08:46:57: Conexão MySQL aberta.
+10/08/2023 08:47:01: Aplicação encerrada.
+10/08/2023 09:13:42: Servidor Socket parado.
+10/08/2023 09:13:54: Aplicação encerrada.
+10/08/2023 09:26:56: Aplicação iniciada
+10/08/2023 09:26:56: Servidor Iniciado na porta 8000
+10/08/2023 09:26:56: Conexão MySQL aberta.
+10/08/2023 09:26:57: Servidor Socket parado.
+10/08/2023 09:26:57: Conexão MySQL finalizada.
+10/08/2023 09:27:00: Aplicação encerrada.

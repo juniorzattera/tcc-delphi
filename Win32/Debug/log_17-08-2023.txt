@@ -1,0 +1,17 @@
+17/08/2023 13:53:29: Aplicação iniciada
+17/08/2023 13:53:29: Servidor Iniciado na porta 8000
+17/08/2023 13:53:29: Conexão MySQL aberta.
+17/08/2023 13:53:47: Cliente Conectado
+17/08/2023 13:53:57: INSERT INTO contadores_norias(datahora, cont_esc, cont_evc, cont_sif, cont_aut, cont_man1, cont_man2) VALUES ("23-08-17 13:54:00",0, 0, 0, 0, 0, 0)
+17/08/2023 13:53:57: INSERT INTO velocidades_norias(datahora, vel_esc_evc, vel_sif, vel_aut, vel_man1, vel_man2) VALUES ("23-08-17 13:54:00",0, 0, 0, 0, 0)
+17/08/2023 13:54:57: INSERT INTO contadores_norias(datahora, cont_esc, cont_evc, cont_sif, cont_aut, cont_man1, cont_man2) VALUES ("23-08-17 13:55:00",0, 0, 0, 0, 0, 0)
+17/08/2023 13:54:57: INSERT INTO velocidades_norias(datahora, vel_esc_evc, vel_sif, vel_aut, vel_man1, vel_man2) VALUES ("23-08-17 13:55:00",0, 0, 0, 0, 0)
+17/08/2023 13:55:08: Servidor Socket parado.
+17/08/2023 13:55:08: Conexão MySQL finalizada.
+17/08/2023 13:55:41: Aplicação encerrada.
+17/08/2023 15:45:51: Aplicação iniciada
+17/08/2023 15:45:51: Servidor Iniciado na porta 8000
+17/08/2023 15:45:51: Conexão MySQL aberta.
+17/08/2023 15:49:36: Servidor Socket parado.
+17/08/2023 15:49:36: Conexão MySQL finalizada.
+17/08/2023 15:49:39: Aplicação encerrada.
