@@ -134,7 +134,7 @@ procedure TForm1.ServerSocket1ClientRead(Sender: TObject;
 var
   size : Integer;
   i : Integer;
-  bytes : array[0..54] of Byte;
+  bytes : array[0..64] of Byte;
   AnoMes, DiaHora, MinSeg : Integer;
   sql, data, codigo : String;
   //Contador Escaldagem = cont_esc
@@ -143,14 +143,15 @@ var
   //Contador Noria Automatica = cont_aut
   //Contador Noria Manual 1 = cont_man1
   //Contador Noria Manual 2 = cont_man2
+  //Contador Chillers = cont_chillers
   //Velocidade Noria Escaldagem e Evisceração = vel_esc_evc
   //Velocidade Noria SIF = vel_sif
   //Velocidade Noria Automatica= vel_aut
   //Velocidade Noria Manual 1= vel_man1
   //Velocidade Noria Manual 2= vel_man2
   cont_esc, cont_evc, cont_sif, cont_aut,
-  cont_man1, cont_man2, vel_esc_evc, vel_sif,
-  vel_aut, vel_man1, vel_man2 : String;
+  cont_man1, cont_man2, cont_chillers,
+  vel_esc_evc, vel_sif, vel_aut, vel_man1, vel_man2 : String;
 begin
 
   size := Socket.ReceiveLength;
@@ -174,11 +175,12 @@ begin
     cont_aut := converter4Bytes(bytes[20],bytes[21],bytes[22],bytes[23]);
     cont_man1 := converter4Bytes(bytes[24],bytes[25],bytes[26],bytes[27]);
     cont_man2 := converter4Bytes(bytes[28],bytes[29],bytes[30],bytes[31]);
-    vel_esc_evc := converter4Bytes(bytes[32],bytes[33],bytes[34],bytes[35]);
-    vel_sif := converter4Bytes(bytes[36],bytes[37],bytes[38],bytes[39]);
-    vel_aut := converter4Bytes(bytes[40],bytes[41],bytes[42],bytes[43]);
-    vel_man1 := converter4Bytes(bytes[44],bytes[45],bytes[46],bytes[47]);
-    vel_man2 := converter4Bytes(bytes[48],bytes[49],bytes[50],bytes[51]);
+    cont_chillers := converter4Bytes(bytes[32],bytes[33],bytes[34],bytes[35]);
+    vel_esc_evc := converter4Bytes(bytes[36],bytes[37],bytes[38],bytes[39]);
+    vel_sif := converter4Bytes(bytes[40],bytes[41],bytes[42],bytes[43]);
+    vel_aut := converter4Bytes(bytes[44],bytes[45],bytes[46],bytes[47]);
+    vel_man1 := converter4Bytes(bytes[48],bytes[49],bytes[50],bytes[51]);
+    vel_man2 := converter4Bytes(bytes[52],bytes[53],bytes[54],bytes[55]);
 
     if (fdconnection1.Connected = false) then
     begin
@@ -187,10 +189,11 @@ begin
     end;
 
     sql := 'INSERT INTO contadores_norias(datahora, cont_esc, cont_evc, cont_sif, '+
-    'cont_aut, cont_man1, cont_man2) ' +
+    'cont_aut, cont_man1, cont_man2, cont_chillers) ' +
           'VALUES ("' + data + '",' +
           cont_esc + ', ' + cont_evc +', ' + cont_sif + ', ' +
-          cont_aut + ', ' + cont_man1 +', ' + cont_man2 +  ')';
+          cont_aut + ', ' + cont_man1 +', ' + cont_man2 + ', ' +
+          cont_chillers + ')';
     executarSql(sql,'01','00', false);
 
     sql := 'INSERT INTO velocidades_norias(datahora, vel_esc_evc, vel_sif, vel_aut, '+
