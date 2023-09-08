@@ -70,7 +70,7 @@ object Form1: TForm1
   end
   object ServerSocket1: TServerSocket
     Active = False
-    Port = 50000
+    Port = 8015
     ServerType = stNonBlocking
     OnClientConnect = ServerSocket1ClientConnect
     OnClientDisconnect = ServerSocket1ClientDisconnect

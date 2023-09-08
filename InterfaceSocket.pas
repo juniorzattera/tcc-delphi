@@ -8,7 +8,7 @@ uses
   Data.DB, Data.SqlExpr, Data.DBXMySQL, FireDAC.Stan.Intf, FireDAC.Stan.Option,
   FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
   FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.MySQL,
-  FireDAC.Phys.MySQLDef, FireDAC.VCLUI.Wait, FireDAC.Comp.Client,
+  FireDAC.Phys.MySQLDef, FireDAC.VCLUI.Wait, FireDAC.Comp.Client, IdIcmpClient,
   FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt,
   FireDAC.Comp.DataSet, Vcl.Grids, Vcl.DBGrids, Vcl.ExtCtrls, Vcl.DBCtrls,
   Vcl.Buttons, Vcl.Imaging.pngimage, FireDAC.VCLUI.Error, FireDAC.Comp.UI;
@@ -53,6 +53,26 @@ implementation
 
 {$R *.dfm}
 
+function VerificarPing(IP: string): string;
+var
+  ICMPClient: TIdIcmpClient;
+begin
+  Result := '1'; // Não está pingando
+
+  ICMPClient := TIdIcmpClient.Create(nil);
+  try
+    ICMPClient.Host := IP;
+    try
+      ICMPClient.Ping;
+      if ICMPClient.ReplyStatus.ReplyStatusType = rsEcho then
+        Result := '0'; // Está pingando
+    except
+    end;
+  finally
+    ICMPClient.Free;
+  end;
+end;
+
 function converterBytes(const A, B: byte): String;
 var
   resultado: smallint;
@@ -64,7 +84,7 @@ end;
 function converter4Bytes(const A, B, C, D: byte): String;
 var
   bytes: array[0..3] of Byte;
-  num : longWord;
+  num : integer;
 begin
     bytes[0] := A;
     bytes[1] := B;
@@ -136,7 +156,7 @@ var
   i : Integer;
   bytes : array[0..64] of Byte;
   AnoMes, DiaHora, MinSeg : Integer;
-  sql, data, codigo : String;
+  sql, data, codigo, IP, ping_camera : String;
   //Contador Escaldagem = cont_esc
   //Contador Evisceração = cont_evc
   //Contador SIF = cont_sif
@@ -153,7 +173,6 @@ var
   cont_man1, cont_man2, cont_chillers,
   vel_esc_evc, vel_sif, vel_aut, vel_man1, vel_man2 : String;
 begin
-
   size := Socket.ReceiveLength;
   Socket.ReceiveBuf(bytes[0], size);
   AnoMes :=  strtoint(converterBytes(bytes[1],bytes[0]));
@@ -169,6 +188,8 @@ begin
 
   if(codigo = '1') then
   begin
+    IP := '121.1.17.212';
+    ping_camera := VerificarPing(IP);
     cont_esc := converter4Bytes(bytes[8],bytes[9],bytes[10],bytes[11]);
     cont_evc := converter4Bytes(bytes[12],bytes[13],bytes[14],bytes[15]);
     cont_sif := converter4Bytes(bytes[16],bytes[17],bytes[18],bytes[19]);
@@ -201,6 +222,11 @@ begin
           'VALUES ("' + data + '",' +
           vel_esc_evc + ', ' + vel_sif +', ' + vel_aut + ', ' +
           vel_man1 + ', ' + vel_man2 + ')';
+    executarSql(sql,'01','00', false);
+
+    sql := 'INSERT INTO ping(datahora, camera_sangria) ' +
+          'VALUES ("' + data + '",' +
+          ping_camera + ')';
     executarSql(sql,'01','00', false);
 
   end;
