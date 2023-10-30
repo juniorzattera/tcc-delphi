@@ -154,13 +154,14 @@ procedure TForm1.ServerSocket1ClientRead(Sender: TObject;
 var
   size : Integer;
   i : Integer;
-  bytes : array[0..76] of Byte;
+  bytes : array[0..80] of Byte;
   AnoMes, DiaHora, MinSeg: Integer;
-  sql, data, codigo, IP, ping_camera, perdaMiudos1, totalPacote1, porcentagemPerda1  : String;
+  sql, data, codigo, IP, ping_camera, perdaMiudos1, totalPacote1, porcentagemPerda1,
   cont_esc, cont_evc, cont_sif, cont_aut,
   cont_man1, cont_man2, cont_chillers, cont_evisceradora,
   vel_esc_evc, vel_sif, vel_aut, vel_man1, vel_man2,
-  miudos_antes, miudos_depois, diferenca_miudos: String;
+  miudos_antes, miudos_depois, diferenca_miudos,
+  cont_pendura, diferenca_pen_esc: String;
 
 begin
   size := Socket.ReceiveLength;
@@ -180,22 +181,24 @@ begin
   begin
     IP := '121.1.17.212';
     ping_camera := VerificarPing(IP);
-    cont_esc := converter4Bytes(bytes[8],bytes[9],bytes[10],bytes[11]);
-    cont_evisceradora := converter4Bytes(bytes[12],bytes[13],bytes[14],bytes[15]);
-    cont_evc := converter4Bytes(bytes[16],bytes[17],bytes[18],bytes[19]);
-    cont_sif := converter4Bytes(bytes[20],bytes[21],bytes[22],bytes[23]);
-    miudos_antes := converter4Bytes(bytes[24],bytes[25],bytes[26],bytes[27]);
-    miudos_depois := converter4Bytes(bytes[28],bytes[29],bytes[30],bytes[31]);
-    diferenca_miudos := converter4Bytes(bytes[32],bytes[33],bytes[34],bytes[35]);
-    cont_aut := converter4Bytes(bytes[36],bytes[37],bytes[38],bytes[39]);
-    cont_man1 := converter4Bytes(bytes[40],bytes[41],bytes[42],bytes[43]);
-    cont_man2 := converter4Bytes(bytes[44],bytes[45],bytes[46],bytes[47]);
-    cont_chillers := converter4Bytes(bytes[48],bytes[49],bytes[50],bytes[51]);
-    vel_esc_evc := converter4Bytes(bytes[52],bytes[53],bytes[54],bytes[55]);
-    vel_sif := converter4Bytes(bytes[56],bytes[57],bytes[58],bytes[59]);
-    vel_aut := converter4Bytes(bytes[60],bytes[61],bytes[62],bytes[63]);
-    vel_man1 := converter4Bytes(bytes[64],bytes[65],bytes[66],bytes[67]);
-    vel_man2 := converter4Bytes(bytes[68],bytes[69],bytes[70],bytes[71]);
+    cont_pendura := converter4Bytes(bytes[8],bytes[9],bytes[10],bytes[11]);
+    diferenca_pen_esc := converter4Bytes(bytes[12],bytes[13],bytes[14],bytes[15]);
+    cont_esc := converter4Bytes(bytes[16],bytes[17],bytes[18],bytes[19]);
+    cont_evisceradora := converter4Bytes(bytes[20],bytes[21],bytes[22],bytes[23]);
+    cont_evc := converter4Bytes(bytes[24],bytes[25],bytes[26],bytes[27]);
+    cont_sif := converter4Bytes(bytes[28],bytes[29],bytes[30],bytes[31]);
+    miudos_antes := converter4Bytes(bytes[32],bytes[33],bytes[34],bytes[35]);
+    miudos_depois := converter4Bytes(bytes[36],bytes[37],bytes[38],bytes[39]);
+    diferenca_miudos := converter4Bytes(bytes[40],bytes[41],bytes[42],bytes[43]);
+    cont_aut := converter4Bytes(bytes[44],bytes[45],bytes[46],bytes[47]);
+    cont_man1 := converter4Bytes(bytes[48],bytes[49],bytes[50],bytes[51]);
+    cont_man2 := converter4Bytes(bytes[52],bytes[53],bytes[54],bytes[55]);
+    cont_chillers := converter4Bytes(bytes[56],bytes[57],bytes[58],bytes[59]);
+    vel_esc_evc := converter4Bytes(bytes[60],bytes[61],bytes[62],bytes[63]);
+    vel_sif := converter4Bytes(bytes[64],bytes[65],bytes[66],bytes[67]);
+    vel_aut := converter4Bytes(bytes[68],bytes[69],bytes[70],bytes[71]);
+    vel_man1 := converter4Bytes(bytes[72],bytes[73],bytes[74],bytes[75]);
+    vel_man2 := converter4Bytes(bytes[76],bytes[77],bytes[78],bytes[79]);
 
     if (fdconnection1.Connected = false) then
     begin
@@ -203,12 +206,12 @@ begin
       atualizarlog('Conexão MySQL aberta.');
     end;
 
-    sql := 'INSERT INTO contadores_norias(datahora, cont_esc,' +
-          'cont_evisceradora, cont_evc, cont_sif, '+
+    sql := 'INSERT INTO contadores_norias(datahora, cont_pendura, diferenca_pen_esc,' +
+          'cont_esc, cont_evisceradora, cont_evc, cont_sif, '+
           'miudos_antes, miudos_depois, diferenca_miudos,' +
           'cont_aut, cont_man1, cont_man2, cont_chillers) ' +
           'VALUES ("' + data + '",' +
-          cont_esc + ', ' + cont_evisceradora + ', ' +
+          cont_pendura +',' + diferenca_pen_esc +',' + cont_esc + ', ' + cont_evisceradora + ', ' +
           cont_evc +', ' + cont_sif + ', ' +
           miudos_antes + ', ' + miudos_depois + ', ' + diferenca_miudos + ', ' +
           cont_aut + ', ' + cont_man1 +', ' + cont_man2 + ', ' +
