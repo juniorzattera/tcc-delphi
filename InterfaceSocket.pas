@@ -161,7 +161,8 @@ var
   cont_man1, cont_man2, cont_chillers, cont_evisceradora,
   vel_esc_evc, vel_sif, vel_aut, vel_man1, vel_man2,
   miudos_antes, miudos_depois, diferenca_miudos,
-  cont_pendura, diferenca_pen_esc: String;
+  cont_pendura, diferenca_pen_esc,
+  totalEviscerados, totalViscerasPerdidas, rendimentoTotal : String;
 
 begin
   size := Socket.ReceiveLength;
@@ -232,11 +233,11 @@ begin
 
   end;
 
-  if(codigo = '4') then
+  if(codigo = '2') then
   begin
-    perdaMiudos1 := (converterBytes(bytes[8],bytes[9]));
-    totalPacote1 := (converterBytes(bytes[10],bytes[11]));;
-    porcentagemPerda1 := (converterBytes(bytes[12],bytes[13]));
+    perdaMiudos1 := converter4Bytes(bytes[8],bytes[9],bytes[10],bytes[11]);
+    totalPacote1 := converter4Bytes(bytes[12],bytes[13],bytes[14],bytes[15]);
+    porcentagemPerda1 := converter4Bytes(bytes[16],bytes[17],bytes[18],bytes[19]);
 
     if (fdconnection1.Connected = false) then
     begin
@@ -249,6 +250,25 @@ begin
           perdaMiudos1 + ', ' + totalPacote1 +', ' + porcentagemPerda1 + ', ' +
           cont_aut + ', ' + cont_man1 +', ' + cont_man2 + ', ' +
           cont_chillers + ')';
+    executarSql(sql,'01','00', false);
+
+  end;
+
+   if(codigo = '3') then
+  begin
+    totalEviscerados := converter4Bytes(bytes[8],bytes[9],bytes[10],bytes[11]);
+    totalViscerasPerdidas := converter4Bytes(bytes[12],bytes[13],bytes[14],bytes[15]);
+    rendimentoTotal := converter4Bytes(bytes[16],bytes[17],bytes[18],bytes[19]);
+
+    if (fdconnection1.Connected = false) then
+    begin
+      fdconnection1.Connected := true;
+      atualizarlog('Conexão MySQL aberta.');
+    end;
+
+    sql := 'INSERT INTO evisceradora(datahora, totalEviscerados, totalViscerasPerdidas, rendimentoTotal) '+
+          'VALUES ("' + data + '",' +
+          totalEviscerados + ', ' + totalViscerasPerdidas +', ' + rendimentoTotal + ')';
     executarSql(sql,'01','00', false);
 
   end;
